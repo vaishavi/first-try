@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 100px auto 0 auto;
+  font-family: 'Sacramento', serif;
+  font-size: 90px;
+  color: #66bfbf;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #66bfbf;
+  font-weight: normal;
+  line-height: 2;
+  margin: 0;
+
+}
+h3{
+  color: #11999e;
+
+}
+a{
+  color: BLACK;
+}
+hr{
+
+  border: dotted grey;
+  width: 5%;
+  border-width: 5px;
+  border-top: none;
+}
+.profile1 {
+  border-radius: 100%;
+  width: 10%;
+  padding: 1%;
+
+}
+.space{
+  margin-bottom: 50px;
+}
+.profile2 {
+  border-radius: 100%;
+  margin: 1%;
+  width: 25%;
+  float: left;
+}
+
+.top-container {
+  margin: 0;
+  background-color: #abf0e9;
+  position: relative;
+  /*this box is considered a fixed*/
+  /*according to this the clouds and mountains are moved*/
+  padding: 10%;
+  height: 500px;
+  /*h1 bottom movement*/
+}
+.bottom-container{
+  margin-top: 50px;
+  background-color: #11999e;
+}
+.description
+{
+  width: 50%;
+  text-align: justify;
+  margin: auto;
+  line-height: 2;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 30%;
+  top: 10%;
+}
+
+
+.bottom-cloud {
+  position: absolute;
+  top: 45%;
+  left: 25%;
+}
+.mountain{
+  position: absolute;
+  top: 53.5%;
+  left:30%
+
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.testbutton {
+  font-family: arial;
+  font-weight: bold;
+  color: #FFF5F7 !important;
+  font-size: 14px;
+  text-shadow: 4px 1px 0px #11999E;
+  box-shadow: 1px 1px 1px #BEE2F9;
+  padding: 10px 25px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: #11999E;
+  background: linear-gradient(top,  #63B8EE,  #468CCF);
+  background: -ms-linear-gradient(top,  #63B8EE,  #468CCF);
+  background: -webkit-gradient(linear, left top, left bottom, from(#63B8EE), to(#468CCF));
+  background: -moz-linear-gradient(top,  #63B8EE,  #468CCF);
+}
+.testbutton:hover {
+  color: #FFF5F7 !important;
+  background: #4ADAF7;
+}
